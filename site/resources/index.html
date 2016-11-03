@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Test-Driven JavaScript Development, The Book</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="test,driven,javascript,tdd,unit,test,testing,book">
+    <meta name="description" content="Code and resources for the Addison-Wesley book Test-Driven JavaScript Development by Christian Johansen">
+    <meta name="author" content="Christian Johansen">
+    <link href="/stylesheets/tddjs.css" media="screen,projection,handheld" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <h1><a href="/">Test-Driven JavaScript Development</a></h1>
+    <ul class="nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/code">Download code</a></li>
+      <li><a>Resources</a></li>
+      <li><a href="/errata">Errata</a></li>
+      <li><a href="http://cjohansen.no/">cjohansen.no</a></li>
+    </ul>
+    <div class="section">
+      <h2>Resources and links</h2>
+      <p>
+        Throughout the book, external tools and code are used to support
+        running examples. The following is a list of referenced code and links
+        to further resources for them.
+      </p>
+      <h3>JsTestDriver</h3>
+      <ul>
+        <li><a href="http://code.google.com/p/js-test-driver/">Website</a></li>
+        <li>
+          <a href="http://js-test-driver.googlecode.com/files/JsTestDriver-1.2.1.jar">
+            Version used in book: 1.2.1
+          </a>
+        </li>
+        <li><a href="http://code.google.com/p/js-test-driver/wiki/CodeCoverage">JsTestDriver CodeCoverage</a></li>
+        <li><a href="http://cjohansen.no/en/javascript/javascript_continuous_integration_with_hudson_and_jstestdriver">Continuous Integration with JsTestDriver and Hudson</a></li>
+      </ul>
+      <h3>jsUnitMockTimeout</h3>
+      <ul>
+        <li><a href="http://www.jsunit.net/">JsUnit.net</a></li>
+        <li><a href="/code/jsUnitMockTimeout.js">jsUnitMockTimeout.js</a></li>
+      </ul>
+      <h3>node-unit</h3>
+      <ul>
+        <li><a href="http://github.com/caolan/nodeunit">GitHub Repository</a></li>
+        <li><a href="/code/nodeunit.zip">Version used in book (zip file)</a></li>
+        <li><a href="http://cjohansen.no/en/node_js/unit_testing_node_js_apps">Additional assertions</a></li>
+      </ul>
+      <h3>node-promise</h3>
+      <ul>
+        <li><a href="http://github.com/kriszyp/node-promise">GitHub repository</a></li>
+        <li><a href="/code/node-promise.zip">Version used in book (zip file)</a></li>
+      </ul>
+      <h3>node-paperboy</h3>
+      <ul>
+        <li><a href="http://github.com/felixge/node-paperboy">GitHub repository</a></li>
+        <li><a href="/code/node-paperboy.zip">Version used in book (zip file)</a></li>
+      </ul>
+      <h3>Juicer</h3>
+      <ul>
+        <li><code>gem install juicer</code></li>
+        <li><a href="http://cjohansen.no/en/ruby/juicer_a_css_and_javascript_packaging_tool">A CSS and JavaScript packaging tool</a></li>
+      </ul>
+      <h3>Sinon.JS</h3>
+      <ul>
+        <li><a href="http://cjohansen.no/sinon/">Website</a></li>
+        <li><a href="/code/sinon-pre.js">Pre-release version used in book</a></li>
+      </ul>
+      <p>
+        To use a version of Sinon.JS from the above website, use the following
+        configuration, and <code>sinon.test</code> will behave as described in
+        the book.
+      </p>
+      <pre><code>sinon.config = {
+  injectIntoThis: false,
+  properties: ["stub", "mock"]
+};</code></pre>
+    </div>
+    <script type="text/javascript">var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-17321766-1"]);_gaq.push(["_trackPageview"]);(function(d) {var g=d.createElement("script");g.type="text/javascript";g.async=true;g.src="http://www.google-analytics.com/ga.js";var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(g,s);}(document));</script>
+  </body>
+</html>

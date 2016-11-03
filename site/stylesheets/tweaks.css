@@ -1,0 +1,47 @@
+body {
+    max-width:940px;
+}
+
+.section p {
+
+}
+
+.intro p {
+    background: #E2E1E8;
+    margin:0 0 1em;
+    padding:1em;
+}
+
+/*new selector, this is the "Free sample chapter:" paragraph*/
+.intro p.sample_chapter {
+    background:#F8EFBF;
+    font-weight:bold;
+}
+/*
+.nav {
+    background: #999;
+    border-top:none;
+    margin:0 0 2em;
+    padding:0.8em 0;
+    text-align:left;
+    white-space:nowrap;
+}
+.nav li {
+    display:inline;
+    font-size:1em;
+    list-style:none outside none;
+    padding-left:1em;
+    padding-right:1em;
+}
+.nav li a {
+    color:#fff;
+    font-weight:bold;
+}
+.nav li a:link, .nav li a:visited {
+    color:#C2BCE3;
+}
+*/
+.note {
+    font-size:1em;
+    margin-left:0;
+}
